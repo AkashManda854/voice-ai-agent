@@ -3,11 +3,11 @@
 ```mermaid
 flowchart TD
 
-A[User Voice Input] --> B[Speech-to-Text STT (Whisper)]
+A[User Voice Input] --> B[Speech to Text - Whisper]
 
-B --> C[Language Detection (LangDetect)]
+B --> C[Language Detection - LangDetect]
 
-C --> D[AI Agent (Intent Detection)]
+C --> D[AI Agent - Intent Detection]
 
 D --> E[Tool Orchestration]
 
@@ -22,7 +22,7 @@ D --> K[Session Memory]
 
 F --> L[Persistent Memory]
 
-F --> M[Text-to-Speech (gTTS)]
+F --> M[Text to Speech - gTTS]
 
-M --> N[Voice Response]
+M --> N[Voice Response to User]
 ```
